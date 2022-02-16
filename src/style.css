@@ -1,0 +1,60 @@
+#button1 {
+  padding: 1%;
+  margin: 2%;
+  background-color: lightblue;
+}
+#button2 {
+  padding: 1%;
+  margin: 2%;
+  background-color: lightblue;
+}
+#button3 {
+  padding: 1%;
+  margin: 2%;
+  background-color: lightblue;
+}
+#button4 {
+  padding: 1%;
+  margin: 2%;
+  background-color: lightblue;
+}
+#button5 {
+  padding: 1%;
+  margin: 2%;
+  background-color: lightblue;
+}
+#id {
+  padding: 1%;
+}
+
+#name {
+  padding: 1%;
+}
+#price {
+  padding: 1%;
+}
+#quantity {
+  padding: 1%;
+}
+#lebel1 {
+  font-size: 1.2em;
+  margin-left: 3%;
+}
+#lebel2 {
+  font-size: 1.2em;
+  margin-left: 3%;
+}
+#lebel3 {
+  font-size: 1.2em;
+  margin-left: 3%;
+
+  padding: 2%;
+}
+#lebel4 {
+  font-size: 1.2em;
+  margin-left: 3%;
+  margin-top: 10%;
+}
+.main {
+  margin-top: 4%;
+}

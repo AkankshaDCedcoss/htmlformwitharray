@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>htmlformwitharray</title>
+  </head>
+  <body>
+    <div class="main">
+      <form>
+        <div class="div1">
+          <label id="lebel1">Id:</label><br />
+          <input type="text" id="id" value="" /><br />
+        </div>
+        <div class="div2">
+          <label id="lebel2">Name:</label><br />
+          <input type="text" id="name" value="" /><br /><br />
+        </div>
+        <div class="div3">
+          <label id="lebel3">Price:</label><br />
+          <input type="text" id="price" value="" /><br /><br />
+        </div>
+        <div class="div4">
+          <label id="lebel4">Quantity:</label><br />
+          <input type="text" id="quantity" value="" /><br /><br />
+        </div>
+        <div class="newupdate">
+          <input type="button" id="button5" value="Update" />
+        </div>
+
+        <div class="div5">
+          <input type="button" id="button1" value="Addition" />
+          <input
+            type="button"
+            id="button2"
+            value="Deleation"
+            onclick="deleteData()"
+          /><br />
+          <input
+            type="button"
+            id="button3"
+            value="Updation"
+            onclick="update()"
+          />
+          <input
+            type="button"
+            id="button4"
+            value="Display Table"
+            onclick="display()"
+          /><br />
+        </div>
+      </form>
+      <div class="display" id="output"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
